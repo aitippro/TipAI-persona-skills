@@ -6,9 +6,9 @@
 
 ```
 skills/
-  persona-forge.md          ← 核心 Skill（4 步工作流：分析→锻造→应答→自检）
+  persona-forge.md          ← 核心 Skill（自包含，4 步工作流：分析→锻造→应答→自检）
 templates/
-  persona-template.md       ← 人设生成标准输出模板
+  persona-template.md       ← 人设模板（独立参考件，已内联至 Skill）
 examples/                   ← 多领域人设生成示例 (3 个)
 validator/
   check-skill.md            ← Skill 格式自检清单
@@ -21,7 +21,7 @@ validator/
 
 ```
 仓库: https://github.com/aitippro/TipAI-persona-skills
-Skill 文件: skills/persona-forge.md
+Skill 文件: skills/persona-forge.md （自包含，无需加载其他文件）
 最佳搭配: Claude Opus 4.7（精准推理 + 长窗口）
 ```
 
@@ -30,9 +30,10 @@ Skill 文件: skills/persona-forge.md
 - 所有改动基于 `main` 分支，通过 PR 合入
 - Skill 内容改动需同步更新 CHANGELOG
 - 模板 / 示例 / 质检清单改动需保持与 Skill 文件一致
-- 新增示例须跑通完整 3 步工作流后方可提交
+- 新增示例须跑通完整 4 步工作流后方可提交
 - Markdown 格式遵循 `.markdownlint-cli2.jsonc`，CI 自动检查
 - 新增示例须对应更新 `validator/check-skill.md` 的覆盖清单
+- Skill 内容改动后，`templates/persona-template.md` 作为独立参考件需同步内联内容
 
 ## 约束
 

@@ -2,7 +2,7 @@
 
 # 🎭 TipAI Persona Skills
 
-**人设分析与生成 Skill 模块**
+**自包含人设分析与生成 Skill — 一次加载，全部能力就绪**
 
 加载 Skill → 分析用户问题 → 生成严谨精准人设 → 以人设视角回答解决客户问题
 
@@ -18,9 +18,9 @@
 ```
 TipAI-persona-skills/
 ├── skills/
-│   └── persona-forge.md            ← 🎯 核心 Skill（人设锻造）
+│   └── persona-forge.md            ← 🎯 核心 Skill（自包含，加载即用）
 ├── templates/
-│   └── persona-template.md         ← 人设生成标准模板
+│   └── persona-template.md         ← 人设模板（独立参考件）
 ├── examples/                       ← 多领域人设生成示例
 │   ├── tech-architect.md           ← 技术架构师场景
 │   ├── medical-advisor.md          ← 医学顾问场景
@@ -51,7 +51,7 @@ TipAI-persona-skills/
 ## 🚀 使用
 
 ```
-1. 加载 skills/persona-forge.md 到你的 Agent
+1. 加载 skills/persona-forge.md 到你的 Agent（单文件，无需加载模板）
 2. 直接提问，Agent 自动完成人设分析并以最佳人设回答
 3. 不需要手动指定角色，系统全自动匹配
 ```

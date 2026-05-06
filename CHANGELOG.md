@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.2 (2026-05-07)
+
+- ♻️ Skill 自包含化：模板内容（人设卡片/推理链/复杂度评估）内联至 persona-forge.md
+- 📝 移除外部文件依赖，单文件加载即可使用全部能力
+- 📝 README/CLAUDE.md 更新为自包含描述，templates/ 标注为独立参考件
+
 ## v1.1 (2026-05-07)
 
 - 🔧 新增 CI 流水线（.github/workflows/check.yml + .markdownlint-cli2.jsonc）
