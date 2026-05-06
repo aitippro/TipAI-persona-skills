@@ -27,6 +27,9 @@ TipAI-persona-skills/
 │   └── legal-counsel.md            ← 法律咨询场景
 ├── validator/
 │   └── check-skill.md              ← Skill 格式自检清单
+├── .github/workflows/
+│   └── check.yml                   ← CI: Lint + 链接检查
+├── .markdownlint-cli2.jsonc        ← Markdown 格式规则
 ├── CHANGELOG.md
 ├── LICENSE
 └── README.md
