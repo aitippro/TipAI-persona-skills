@@ -6,7 +6,7 @@
 
 ```
 skills/
-  persona-forge.md          ← 核心 Skill（3 步工作流：分析→锻造→应答）
+  persona-forge.md          ← 核心 Skill（4 步工作流：分析→锻造→应答→自检）
 templates/
   persona-template.md       ← 人设生成标准输出模板
 examples/                   ← 多领域人设生成示例 (3 个)
